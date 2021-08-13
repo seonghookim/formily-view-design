@@ -1,0 +1,30 @@
+@import '../__builtins__/styles/common.scss';
+
+.#{$formily-prefix}-form-drawer {
+  .ivu-drawer {
+    min-width: 30%;
+  }
+  .ivu-drawer-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    .#{$formily-prefix}-form-drawer-body {
+      padding: $--dialog-padding-primary;
+    }
+  }
+
+  &-body {
+    flex: 1;
+    overflow: auto;
+  }
+
+  &-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: $--dialog-padding-primary/2 $--dialog-padding-primary;
+    border-top: 1px solid $--border-color-base;
+    > * {
+      margin-right: 8px;
+    }
+  }
+}

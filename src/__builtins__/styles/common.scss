@@ -1,0 +1,72 @@
+$formily-prefix: 'formily-view-design';
+$namespace: 'ivu';
+// @import '~element-ui/packages/theme-chalk/src/common/var.scss';
+
+@mixin active {
+  border-color: #2d8cf0; // iview-theme @primary-color
+  outline: 0;
+  border-right-width: 1px !important; // iview-theme @border-width-base
+}
+
+@mixin hover {
+  border-color: #dcdee2; // iview-theme @border-color-base
+  outline: 0;
+  border-right-width: 1px !important; // iview-theme @border-width-base
+}
+
+$--color-text-regular: #606266 !default;
+/// color|1|Font Color|2
+$--color-text-secondary: #909399 !default;
+$--color-text-placeholder: #c0c4cc !default;
+
+$--color-success: #67c23a !default;
+/// color|1|Functional Color|1
+$--color-warning: #e6a23c !default;
+/// color|1|Functional Color|1
+$--color-danger: #f56c6c !default;
+/// color|1|Functional Color|1
+$--color-info: #909399 !default;
+$--color-white: #fff !default;
+$--color-transition-base: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !default;
+
+$--font-size-extra-large: 20px !default;
+/// fontSize|1|Font Size|0
+$--font-size-large: 18px !default;
+/// fontSize|1|Font Size|0
+$--font-size-medium: 16px !default;
+/// fontSize|1|Font Size|0
+$--font-size-base: 14px !default;
+/// fontSize|1|Font Size|0
+$--font-size-small: 13px !default;
+/// fontSize|1|Font Size|0
+$--font-size-extra-small: 12px !default;
+
+$--font-weight-primary: normal !default;
+
+$--border-color-base: #dcdfe6 !default;
+
+$--border-width-base: 1px !default;
+$--border-style-base: solid !default;
+$--border-color-hover: $--color-text-placeholder !default;
+$--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
+/// borderRadius|1|Radius|0
+$--border-radius-base: 4px !default;
+/// borderRadius|1|Radius|0
+$--border-radius-small: 2px !default;
+/// borderRadius|1|Radius|0
+$--border-radius-circle: 100% !default;
+/// borderRadius|1|Radius|0
+$--border-radius-zero: 0 !default;
+
+$--all-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) !default;
+$--fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) !default;
+$--fade-linear-transition: opacity 200ms linear !default;
+$--md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1),
+  opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) !default;
+$--border-transition-base: border-color 0.2s
+  cubic-bezier(0.645, 0.045, 0.355, 1) !default;
+$--color-transition-base: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !default;
+
+$--dialog-padding-primary: 16px;
+
+$--color-primary: #2d8cf0;
